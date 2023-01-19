@@ -11,11 +11,11 @@ const PORT = process.env.PORT || 5000 ;
 const products_routes = require("./routes/products");
 
 
-//
-// app.get("/", (req, res) => {
-//   res.send("hello");
-// });
-//
+
+app.get("/", (req, res) => {
+  res.send("hello");
+});
+
 
 
 // middleware
